@@ -49,6 +49,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <h1>ToDo</h1>
         <TodoList
           addItem={this.addItem}
           inputElement={this.inputElement}
